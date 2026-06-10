@@ -1,0 +1,11 @@
+build/
+*.o
+*.a
+*.so
+.cache/
+depends/built/
+depends/work/
+autom4te.cache/
+*.pyc
+__pycache__/
+.DS_Store

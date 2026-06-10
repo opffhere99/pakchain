@@ -1,0 +1,12 @@
+{
+  "name": "PakChain Node",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+  "forwardPorts": [8999, 8332],
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+  "portsAttributes": {
+    "8999": {
+      "label": "PakChain P2P",
+      "onAutoForward": "silent"
+    }
+  }
+}
